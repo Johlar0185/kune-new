@@ -49,6 +49,7 @@ h1 {
   margin-top: 3em;
   font-family: "montserrat-reg", sans-serif;
   color: var(--beige);
+
 }
 
 .index_intro {
@@ -60,10 +61,11 @@ h1 {
   background-color: var(--black);
   margin-bottom: 6em;
   display: flex;
+  justify-content: center;
 }
 
 .index_isla img {
-  width: 100%;
+  width: 50%;
 }
 
 .index_cont4 {
@@ -349,6 +351,11 @@ video {
     width: 50vw;
     margin: 0;
     display: flex;
+    padding-left: 5em;
+  }
+
+  .index_isla img {
+    width: 100%;
   }
 
   .index_cont4 {
@@ -400,6 +407,7 @@ video {
     grid-row: 1;
     align-items: center;
     justify-content: center;
+    position: relative;
   }
 
   .cont7_box {
@@ -409,6 +417,7 @@ video {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0rem;
+    filter: opacity(80%);
   }
 
   .cont7_box:nth-child(1),
