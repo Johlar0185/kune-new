@@ -245,6 +245,7 @@ video {
   width: 25vw;
   height: 25vw;
   /* margin: 0.5em; */
+  filter: opacity(80%);
 }
 
 .cont7_box:nth-child(1),
