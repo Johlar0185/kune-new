@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+.artistlist_header {
+  color: var(--yellow);
+  font-family: dance;
+  padding-top: 2em;
+}
+
+.artistlistImg {
+  max-width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+}
+
+main {
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.info p {
+  font-family: dance;
+  mix-blend-mode: difference;
+}
+
+#child1-main {
+  margin-bottom: 1em;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.artistlist_header {
+  justify-self: center;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  margin-top: 2em;
+}
+
+/*minmax is to scale when going from desktop to mobile, without adjusting
+in @media */
+
+main #child1-main {
+  grid-column: 1/-1;
+}
+
+.artist {
+  display: grid;
+  overflow: hidden;
+  margin: 0;
+}
+
+.artist:hover > section {
+  transform: translateX(0%);
+}
+
+.artist > * {
+  position: relative;
+  width: 100%;
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+}
+
+.artist section {
+  z-index: 10;
+  background: rgb(217, 254, 194, 0.7);
+  display: grid;
+  place-content: center;
+  transform: translateX(100%);
+  transition: all 0.3s;
+}
+
+.artist h3 {
+  text-transform: uppercase;
+}
+
+.hidden {
+  display: none;
+}
+
+@media only screen and (min-width: 900px) {
+  main {
+    grid-column: 2/-1;
+    margin: 0 8em;
+    padding: 5em;
+  }
+
+  .artistlist_header {
+    margin-top: 0em;
+  }
+}
+
+button {
+  background-color: var(--black);
+  color: var(--white);
+  font-family: dance;
+  border-bottom: 1px solid var(--black);
+  cursor: pointer;
+  margin: 0 5px;
+  padding: 0.5em 1em;
+  padding-top: 0.7em;
+  margin-top: 5em;
+  box-shadow: none;
+  border: none;
+  transition: 0.5s ease;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+/* selecting the active page */
+
+.nav-item:nth-child(1) .nav-link {
+  color: var(--white);
+  border: 1px solid var(--white);
+}
+
+@media only screen and (min-width: 900px) {
+  main {
+    grid-column: 2/-1;
+    margin: 0 8em;
+    padding: 5em;
+  }
+
+  .artistlist_header {
+    margin-top: 0em;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  main {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10em;
+  }
+}
