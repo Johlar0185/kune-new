@@ -7,6 +7,30 @@ main {
   opacity: 0;
 }
 
+/* ----- BACK BUTTON ----- */
+
+.backBtn_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backBtn {
+  font-family: montserrat;
+  background-color: var(--black);
+  color: var(--beige);
+  border: 1px solid var(--beige);
+  border-radius: 35px;
+  padding: 0.5em 2em;
+  margin-top: 1em;
+  display: block;
+}
+
+.backBtn:hover {
+  background-color: var(--beige);
+  color: var(--black);
+}
+
 /* ----- LOADING TXT ----- */
 .loading {
   opacity: 20%;
@@ -210,6 +234,10 @@ hr {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .backBtn {
+    display: none;
   }
   /* --------- GRID --------- */
   .cont_artist {
