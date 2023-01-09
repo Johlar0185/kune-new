@@ -11,6 +11,8 @@
   --blue: #a3cafd;
   --beige: #fff8da;
   --orange: #f9a049;
+
+  --shadow-color: 0deg 11% 5%;
 }
 
 @font-face {
