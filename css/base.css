@@ -128,7 +128,7 @@ a {
 }
 
 a.nav-link {
-  color: white;
+  color: var(--beige);
   text-decoration: none;
   font-size: 0.8rem;
   -webkit-transition: 0.5s;
@@ -141,9 +141,9 @@ a.nav-link {
 }
 
 a.nav-link:hover {
-  color: var(--white);
+  color: var(--beige);
   transition: 0.5s ease;
-  border: 1px solid var(--white);
+  border: 1px solid var(--beige);
 }
 
 a.nav-link::before {
@@ -165,7 +165,7 @@ a.nav-link::after {
   padding: 0;
   margin: 6px;
   transition: 0.5s;
-  background-color: var(--white);
+  background-color: var(--beige);
 }
 
 .navbar ul {
@@ -174,7 +174,7 @@ a.nav-link::after {
 
 .navbar ul li {
   font-size: 1.5rem;
-  color: var(--white);
+  color: var(--beige);
   padding: 0 1rem;
 }
 
@@ -371,7 +371,7 @@ footer p {
 
   a.nav-link {
     margin: 1rem 0;
-    color: var(--white);
+    color: var(--beige);
     z-index: 1;
   }
 

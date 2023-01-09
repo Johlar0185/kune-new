@@ -94,7 +94,7 @@ main #child1-main {
 
 button {
   background-color: var(--black);
-  color: var(--white);
+  color: var(--beige);
   font-family: dance;
   border-bottom: 1px solid var(--black);
   cursor: pointer;
@@ -114,8 +114,8 @@ button:hover {
 /* selecting the active page */
 
 .nav-item:nth-child(1) .nav-link {
-  color: var(--white);
-  border: 1px solid var(--white);
+  color: var(--beige);
+  border: 1px solid var(--beige);
 }
 
 @media only screen and (min-width: 900px) {
