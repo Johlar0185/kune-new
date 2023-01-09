@@ -1,8 +1,8 @@
 .headerClass {
   color: var(--yellow);
   font-family: dance;
-  padding-top: 5em;
-  padding-bottom: 1em;
+  padding-top: 3.5em;
+  margin-bottom: -2em;
   justify-self: center;
   grid-column-start: 1;
   grid-column-end: 5;
@@ -15,8 +15,8 @@
   margin-right: 2em;
 }
 
-.volunteerIntro {
-  max-width: 65ch;
+.marquee {
+  margin-top: 4.5em;
 }
 
 .nav-item:nth-child(2) .nav-link {
@@ -28,6 +28,12 @@
 
 #positionId {
   appearance: menulist;
+}
+
+#button-submit {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 #submit_template {
@@ -66,7 +72,7 @@ textarea {
   display: block;
   box-sizing: border-box;
   width: 100%;
-  padding: 0.5rem 0.75rem;
+  /* padding: 0.5rem 0.75rem; */
   border: 2px solid var(--beige);
 }
 
@@ -94,7 +100,7 @@ textarea {
   border: 1px solid var(--beige);
   border-radius: 35px;
   color: var(--beige);
-  padding: 15px 32px;
+  padding: 10px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -119,6 +125,10 @@ textarea {
     margin-top: 2vw;
     margin: auto;
     width: 90vw;
+  }
+
+  .headerClass {
+    margin-bottom: 1em;
   }
 
   form {
