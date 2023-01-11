@@ -23,12 +23,11 @@
 /* containers  */
 
 .index_cont1 {
-  height: 100vh;
+  height: 90vh;
 }
 
 .index_cont2 {
   background-color: var(--blue);
-  min-height: 5vh;
   display: flex;
 }
 
@@ -76,11 +75,15 @@ h1 {
 .video_poster,
 .video_volunteer {
   object-fit: cover;
-  position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
+}
+
+.video_poster,
+.video_volunteer {
+  position: absolute;
 }
 
 .video_wrapper {
