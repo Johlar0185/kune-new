@@ -360,10 +360,6 @@ h1 {
       8.2px 11.4px 15.8px -2.5px hsl(var(--shadow-color) / 0.36);
   }
 
-  .index_cont4 {
-    width: 100vw;
-  }
-
   .index-lineupNames {
     max-width: 80vw;
     margin: 8em 0 5em;
