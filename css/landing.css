@@ -23,12 +23,11 @@
 /* containers  */
 
 .index_cont1 {
-  height: 100vh;
+  height: 90vh;
 }
 
 .index_cont2 {
   background-color: var(--blue);
-  min-height: 5vh;
   display: flex;
 }
 
@@ -76,11 +75,15 @@ h1 {
 .video_poster,
 .video_volunteer {
   object-fit: cover;
-  position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
+}
+
+.video_poster,
+.video_volunteer {
+  position: absolute;
 }
 
 .video_wrapper {
@@ -358,10 +361,6 @@ h1 {
       1.4px 1.9px 2.7px -0.8px hsl(var(--shadow-color) / 0.36),
       3.4px 4.7px 6.5px -1.7px hsl(var(--shadow-color) / 0.36),
       8.2px 11.4px 15.8px -2.5px hsl(var(--shadow-color) / 0.36);
-  }
-
-  .index_cont4 {
-    width: 100vw;
   }
 
   .index-lineupNames {

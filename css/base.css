@@ -180,6 +180,11 @@ a.nav-link::after {
   padding: 0 1rem;
 }
 
+/* .topnav-landing {
+  background-color: transparent;
+  mix-blend-mode: difference;
+} */
+
 /* ------ bottom nav ------ */
 
 footer ul {
@@ -195,7 +200,7 @@ footer ul {
 .btm-nav {
   display: flex;
   flex-direction: column;
-  margin: 3rem 2rem 0.5rem;
+  margin: 3rem 2rem 1rem;
 }
 
 .grid-nav {
@@ -276,6 +281,7 @@ footer p {
 @media screen and (min-width: 900px) {
   .btm-nav {
     margin: 10vh 8vw 4vh;
+    padding: 10vh 0 0;
   }
 
   .btm-nav-txt {
